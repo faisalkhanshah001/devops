@@ -518,16 +518,7 @@
                 </plugins>
             </reporting>
         </profile>
-	<profile>
-		<id>sonar</id>
-		<activation>
-			<activeByDefault>false</activeByDefault>
-		</activation>
-		<properties>
-			<sonar.host.url>http://localhost:9000</sonar.host.url>
-			<sonar.login>2512914f61320988b2c0b2f8442fdc12fe6ff21b</sonar.login>
-		</properties>
-	</profile>
+	
     </profiles>
 
 </project>
